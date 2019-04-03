@@ -29,3 +29,5 @@ app.get('*', routes.notFound);
 // });
 
 app.listen(process.env.PORT || 3000);
+
+var PORT = process.env.PORT || 5000;
