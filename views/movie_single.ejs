@@ -1,0 +1,36 @@
+<% include partials/head %>
+<% include partials/nav %>
+  
+  <div id="hero-image-single" style="background-image: url('/images/<%= movie.hero_image %>')">
+    <h1 id="hero-title"><%= title %></h1>
+  </div>
+
+  <div class="content-padding clearfix">
+
+    <div class="poster-wrapper">
+      <img class="img-fluid rounded shadow" src="/images/<%= movie.poster %>" alt="Star Wars movie poster">
+    </div>
+
+    <div class="description-wrapper">
+      <div class="description">
+        <h2 class="movie-header">Description</h2>
+        <p><%= movie.description %></p>
+      </div>
+
+      <div class="main_characters">
+        <h2 class="movie-header">Main Characters</h2>
+        <ul class="list-group list-group-horizontal d-flex flex-wrap">
+          <% for(let i = 0; i < main_characters.length; i++) { %>
+            <li class="list-group-item flex-fill"><%= main_characters[i] %></li>
+          <% } %>
+        </ul> 
+      </div>
+    </div>
+
+
+  </div>
+
+
+<% include partials/footer %>
+
+  

@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-sm fixed-top d-flex  align-items-center">
+  <div class="content-padding">
+    <ul class="nav navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Movies</a>
+
+        <ul class="dropdown-menu">
+          <% for(let i = 0; i < movies.length; i++) { %>
+            <li class="dropdown-item"><a class="nav-link episode_link" href="/star_wars_episode/<%= i + 1 %>"><%= movies[i].title %></a></li>
+          <% } %>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

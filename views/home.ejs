@@ -1,10 +1,27 @@
 <% include partials/head %>
+<% include partials/nav %>
   
+  <div id="hero-image">
+    <h1 id="hero-title"><%= title %></h1>
+  </div>
 
-    <h1>Hello, world!</h1>
+  <div id="posters-wrapper" class="content-padding clearfix">
 
+    <% for(let i = 0; i < movies.length; i++) { %>
+    <div class="poster">
 
+      <a href="/star_wars_episode/<%= movies[i].episode_number %>">
+
+        <img src="/images/<%= movies[i].poster %>" class="img-fluid rounded shadow" alt="Star Wars movie poster">
+
+        <div class="poster-info-overlay">
+          <h3><%= movies[i].title %></h3>
+          <h4>View More <i class="fas fa-arrow-right"></i></h4>
+        </div>
+      </a>
+    </div>
+    <% }  %>
+
+  </div>
 
 <% include partials/footer %>
-
-  
