@@ -1,5 +1,3 @@
-var PORT = process.env.PORT || 5000;
-
 const express = require('express');
 
 const app = express();
@@ -30,5 +28,5 @@ app.get('*', routes.notFound);
 //   console.log('I’m one with the Force. The Force is with me.');
 // });
 
-// app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000);
 
