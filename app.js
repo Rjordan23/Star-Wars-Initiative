@@ -24,6 +24,8 @@ app.get('/star_wars_episode/:episode_number?', routes.movie_single);
 // notFound, This needs to go last
 app.get('*', routes.notFound);
 
-app.listen(3000, function() {
-  console.log('I’m one with the Force. The Force is with me.');
-});
+// app.listen(3000, function() {
+//   console.log('I’m one with the Force. The Force is with me.');
+// });
+
+app.listen(process.env.PORT || 3000);
