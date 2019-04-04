@@ -38,7 +38,7 @@
   {
     "title" : "Star Wars: Episode V - The Empire Strikes Back",
     "episode_number" : "5",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "R2-D2", "Chewbacca", "Lando Calrissian", "Boba Fett"],
+    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "Yoda", "C-3P0", "R2-D2", "Chewbacca", "Lando Calrissian", "Boba Fett"],
     "description" : "Fleeing the evil Galactic Empire, the Rebels abandon their new base in an assault with the Imperial AT-AT walkers on the ice world of Hoth. Princess Leia, Han Solo, Chewbacca and the droid C-3PO escape in the Millennium Falcon, but are later captured by Darth Vader on Bespin. Meanwhile, Luke Skywalker and the droid R2-D2 follows Obi-Wan Kenobi's posthumous command, and receives Jedi training from Master Yoda on the swamp world of Dagobah. Will Skywalker manage to rescue his friends from the Dark Lord?",
     "poster" : "star_wars_episode_5_poster.png",
     "hero_image" : "star_wars_episode_5_hero.jpg"
@@ -47,10 +47,37 @@
   {
     "title" : "Star Wars: Episode VI - Return of the Jedi",
     "episode_number" : "6",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "Chewbacca", "The Emperor", "Boba Fett"],
+    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "R2-D2", "Chewbacca", "Lando Calrissian", "The Emperor", "Boba Fett"],
     "description" : "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
     "poster" : "star_wars_episode_6_poster.png",
     "hero_image" : "star_wars_episode_6_hero.jpg"
+  },
+
+  {
+    "title" : "Star Wars: Episode VII - The Force Awakens",
+    "episode_number" : 7,
+    "main_characters" : ["Rey", "Finn", "Kylo Ren", "Han Solo", "General Leia Organa", "Poe Dameron", "Supreme Leader Snoke", "General Hux", "C-3P0", "BB-8", "Chewbacca", "Captain Phasma"],
+    "description" : "Star Wars: The Force Awakens begins roughly 30 years after the destruction of the second Death Star, that resulted in the deaths of The Emperor Palpatine and his apprentice, Darth Vader, and caused the Galactic Empire to fall. During this time, the First Order has risen to take its place. Luke Skywalker, the last Jedi Master, has been forced into hiding because the First Order will stop at nothing to see him eliminated. The Resistance, led by Luke’s twin sister, General Leia Organa, seeks to find Luke so he may aid in their latest fight.",
+    "poster" : "star_wars_episode_7_poster.jpg",
+    "hero_image" : "star_wars_episode_7_hero.jpg"
+  },
+
+  {
+    "title" : "Star Wars: Episode VIII - The Last Jedi",
+    "episode_number" : 8,
+    "main_characters" : ["Rey", "Finn", "Kylo Ren", "Luke Skywalker", "BB-8", "General Leia Organa", "Poe Dameron", "Supreme Leader Snoke", "Captain Phasma", "General Hux", "R2-D2", "Chewbacca", "Rose Tico"],
+    "description" : "Following the battle of Starkiller Base, General Leia Organa leads Resistance forces to flee D'Qar when a First Order fleet arrives. Poe Dameron leads a costly counterattack that destroys a First Order dreadnought, but after the Resistance escapes to hyperspace, the First Order tracks them and attacks the Resistance convoy. Kylo Ren, Leia's son, hesitates to fire on the lead Resistance ship after sensing his mother's presence, but his wingmen destroy the bridge, killing most of the Resistance leadership and incapacitating Leia, who survives by using the Force. Disapproving of new leader Vice Admiral Amilyn Holdo's passive strategy, Poe helps Finn, BB-8, and mechanic Rose Tico embark on a secret mission to disable the First Order's tracking device.",
+    "poster" : "star_wars_episode_8_poster.jpg",
+    "hero_image" : "star_wars_episode_8_hero.jpg"
+  },
+
+  {
+    "title" : "Star Wars: Episode IX",
+    "episode_number" : 9,
+    "main_characters" : ["Rey", "Finn", "Kylo Ren", "Luke Skywalker", "BB-8", "General Leia Organa", "Poe Dameron", "General Hux", "R2-D2", "Chewbacca", "Rose Tico"],
+    "description" : "Unknown",
+    "poster" : "star_wars_episode_9_poster.jpg",
+    "hero_image" : "star_wars_episode_9_hero.jpg"
   }]
 
 }

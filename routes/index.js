@@ -20,7 +20,7 @@ exports.movie_single = function(req, res) {
 
   const movies = moviesJSON.movies;
 
-  if(episode_number >= 1 && episode_number <= 6) {
+  if(episode_number >= 1 && episode_number <= 9) {
 
     // Captures the movie # in the array - 1 because the array is 0 based
     let movie = movies[episode_number - 1];

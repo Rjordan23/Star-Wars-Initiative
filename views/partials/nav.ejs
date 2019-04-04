@@ -10,7 +10,9 @@
 
         <ul class="dropdown-menu">
           <% for(let i = 0; i < movies.length; i++) { %>
-            <li class="dropdown-item"><a class="nav-link episode_link" href="/star_wars_episode/<%= i + 1 %>"><%= movies[i].title %></a></li>
+            <li class="dropdown-item">
+              <a class="nav-link episode_link" href="/star_wars_episode/<%= i + 1 %>"><%= movies[i].title %></a>
+            </li>
           <% } %>
         </ul>
       </li>
