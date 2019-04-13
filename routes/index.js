@@ -8,7 +8,7 @@ exports.home = function(req, res) {
   const movies = moviesJSON.movies
 
   res.render('home', {
-    title : 'Star Wars Movies',
+    title : 'The Star Wars Saga',
     movies : movies
   });
 };

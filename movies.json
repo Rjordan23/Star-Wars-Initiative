@@ -72,10 +72,10 @@
   },
 
   {
-    "title" : "Star Wars: Episode IX",
+    "title" : "Star Wars: Episode IX - The Rise of Skywalker",
     "episode_number" : 9,
-    "main_characters" : ["Rey", "Finn", "Kylo Ren", "Luke Skywalker", "BB-8", "General Leia Organa", "Poe Dameron", "General Hux", "R2-D2", "Chewbacca", "Rose Tico"],
-    "description" : "Unknown",
+    "main_characters" : ["Rey", "Finn", "Kylo Ren", "Luke Skywalker", "BB-8", "General Leia Organa", "Poe Dameron", "General Hux", "R2-D2", "Chewbacca", "Rose Tico", "Lando Calrissian", "Emperor Palpatine...?"],
+    "description" : "The final chapter in the Skywalker saga.",
     "poster" : "star_wars_episode_9_poster.jpg",
     "hero_image" : "star_wars_episode_9_hero.jpg"
   }]
